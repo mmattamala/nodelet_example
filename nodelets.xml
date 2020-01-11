@@ -1,0 +1,13 @@
+<library path="lib/libkill_test_nodelet">
+    <!-- name is the name of the compiled library -->
+    <!-- type is the name of the class associated to the library -->
+    <!-- base_class_type is the nodelet::Nodelet class -->
+    
+    <class name="kill_test_nodelet/KillTestChatter"
+           type="kill_test_nodelet::Chatter"
+           base_class_type="nodelet::Nodelet">
+        <description>
+            Chatter nodelet.
+        </description>
+    </class>
+</library>

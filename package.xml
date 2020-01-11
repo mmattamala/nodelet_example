@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>kill_test_nodelet</name>
+  <version>0.0.0</version>
+  <description>Nodelet test</description>
+
+  <!-- Mantainers -->
+  <maintainer email="matias@robots.ox.ac.uk">Matias Mattamala</maintainer>
+
+  <!-- License -->
+  <license>TODO</license>
+
+  <!-- Dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>nodelet</build_depend>
+  <build_depend>roslint</build_depend>
+  
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>cv_bridge</build_export_depend>
+  <build_export_depend>nodelet</build_export_depend>
+  
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>nodelet</exec_depend>s
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <nodelet plugin="${prefix}/nodelets.xml" />
+  </export>
+  
+</package>
